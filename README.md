@@ -1,6 +1,6 @@
-# LC Buddy
+# 🚀 LC Buddy
 
-### Open Source Algorithm Insight Extension for LeetCode
+### 🧠 Open Source Algorithm Insight Extension for LeetCode
 
 LC Buddy is a browser extension that enhances the coding experience on LeetCode by providing **real-time algorithm insights, time complexity estimation, and optimization hints** directly inside the problem interface.
 
@@ -8,41 +8,41 @@ The extension analyzes the code written by the user and provides feedback about 
 
 ---
 
-# Features
+# ✨ Features
 
-### Time Complexity Estimation
+### ⏱️ Time Complexity Estimation
 
 Analyzes the code written in the editor and estimates the time complexity of the solution.
 
 Example output:
 
-Your Complexity: O(n²)
-Optimal Complexity: O(n log n)
+Your Complexity: `O(n²)`
+Optimal Complexity: `O(n log n)`
 
 ---
 
-### Space Complexity Analysis
+### 💾 Space Complexity Analysis
 
 Provides an estimate of the memory usage patterns of the implemented solution.
 
 ---
 
-### Algorithm Pattern Detection
+### 🧠 Algorithm Pattern Detection
 
 Automatically detects algorithmic techniques used in the solution.
 
 Examples:
 
-* Binary Search
-* Sliding Window
-* Two Pointers
-* Hash Map
-* Dynamic Programming
-* Graph Traversal
+* 🔍 Binary Search
+* 🪟 Sliding Window
+* ↔️ Two Pointers
+* 🗂️ Hash Map
+* 📊 Dynamic Programming
+* 🌐 Graph Traversal
 
 ---
 
-### Optimal Approach Suggestions
+### 💡 Optimal Approach Suggestions
 
 LC Buddy compares the detected complexity with commonly known optimal approaches and suggests improvements.
 
@@ -53,15 +53,15 @@ Suggestion: Reduce nested iteration using a two-pointer technique.
 
 ---
 
-### Integrated Sidebar Interface
+### 🧩 Integrated Sidebar Interface
 
 LC Buddy injects a sidebar panel into the LeetCode interface where analysis results and insights are displayed without disrupting the coding workflow.
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
-## Frontend (Extension)
+## ⚛️ Frontend (Extension)
 
 * JavaScript
 * React
@@ -71,7 +71,7 @@ LC Buddy injects a sidebar panel into the LeetCode interface where analysis resu
 
 ---
 
-## Backend
+## ⚡ Backend
 
 Built using **FastAPI**
 
@@ -85,7 +85,7 @@ Responsibilities:
 
 ---
 
-## Database
+## 🗄️ Database
 
 SQLite
 
@@ -98,106 +98,114 @@ Used for storing:
 
 ---
 
-# Architecture
+# 🏗 Architecture
 
+```
 User writes code on LeetCode
-↓
+        ↓
 Extension extracts code from the editor
-↓
+        ↓
 Code sent to FastAPI backend
-↓
+        ↓
 Backend analyzes algorithm structure
-↓
+        ↓
 Time complexity + insights generated
-↓
+        ↓
 Results displayed in extension sidebar
+```
 
 ---
 
-# Project Structure
+# 📂 Project Structure
 
+```
 LC-buddy/
 
 backend/
-app/
-routes/
-services/
-models/
-schemas/
-database/
-main.py
+    app/
+        routes/
+        services/
+        models/
+        schemas/
+        database/
+        main.py
 
 extension/
-manifest.json
-content.js
-background.js
+    manifest.json
+    content.js
+    background.js
 
 ui/
-sidebar/
-popup/
+    sidebar/
+    popup/
+```
 
 ---
 
-# Installation
+# ⚙️ Installation
 
-## Clone Repository
+## 📥 Clone Repository
 
+```
 git clone https://github.com/yourusername/lc-buddy
+```
 
 ---
 
-## Backend Setup
+## 🧩 Backend Setup
 
+```
 cd backend
-
 pip install -r requirements.txt
-
 uvicorn app.main:app --reload
+```
 
 ---
 
-## Load Chrome Extension
+## 🌐 Load Chrome Extension
 
-1. Open Chrome
-2. Navigate to
+1️⃣ Open Chrome
+2️⃣ Navigate to
 
+```
 chrome://extensions
+```
 
-3. Enable Developer Mode
-4. Click **Load Unpacked**
-5. Select the extension folder
-
----
-
-# Roadmap
-
-* Real-time code complexity visualization
-* AI-powered algorithm hints
-* Contest mode insights
-* Solution comparison engine
-* Performance benchmarking
+3️⃣ Enable **Developer Mode**
+4️⃣ Click **Load Unpacked**
+5️⃣ Select the extension folder
 
 ---
 
-# Contributing
+# 🛣 Roadmap
+
+* 📊 Real-time code complexity visualization
+* 🤖 AI-powered algorithm hints
+* 🏆 Contest mode insights
+* ⚡ Solution comparison engine
+* 📈 Performance benchmarking
+
+---
+
+# 🤝 Contributing
 
 LC Buddy is an open-source project and contributions are welcome.
 
 Steps to contribute:
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
+1️⃣ Fork the repository
+2️⃣ Create a feature branch
+3️⃣ Commit your changes
+4️⃣ Open a pull request
 
 ---
 
-# License
+# 📜 License
 
 MIT License
 
 ---
 
-# Vision
+# 🎯 Vision
 
 LC Buddy aims to help developers understand not only **how to solve problems**, but also **how to solve them efficiently** by providing algorithmic insights during the coding process.
